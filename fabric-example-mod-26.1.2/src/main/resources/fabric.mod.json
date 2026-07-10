@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "autofunnyfish",
+	"version": "${version}",
+	"name": "Auto Funny Fish",
+	"environment": "client",
+
+	"entrypoints": {
+		"client": [
+			"com.inari.autofunnyfish.AutoFunnyFishingAddon"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"fabric-api": "*"
+	}
+}
